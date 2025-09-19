@@ -1,0 +1,92 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build outputs
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Environment files
+.env
+.env.*.local
+
+# Package locks (optional, uncomment if not committing lock files)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Coverage and test output
+coverage/
+*.lcov
+.nyc_output/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python (if using backend in Python)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+.venv/
+venv/
+
+# Java (if using backend in Java)
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# C++ / C
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# Misc
+*.bak
+*.tmp
+*.cache
+*.lock
+*.pid
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+.docker/
+docker-compose.override.yml
+
+# Next.js / React specific
+.next/
+.vercel/
+.cache/
